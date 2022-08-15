@@ -14,6 +14,7 @@
             Console.WriteLine("5. Factors of Number");
             Console.WriteLine("6. Compute Quotient & Remainder");
             Console.WriteLine("7. Even Or Odd Number");
+            Console.WriteLine("8. Consonent Or Vowel Alphabet");
 
             int ip = Convert.ToInt32(Console.ReadLine());
             switch (ip)
@@ -45,6 +46,10 @@
                 case 7:
                     EvenOdd evenOdd = new EvenOdd();
                     evenOdd.EvenOdd();
+                    break;
+                case 8:
+                    ConsonentOrVowel alphabet=new ConsonentOrVowel();
+                    alphabet.Alphabet();
                     break;
             }
 
