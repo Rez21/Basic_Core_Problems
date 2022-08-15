@@ -11,6 +11,7 @@
             Console.WriteLine("2.Leap Year Problem");
             Console.WriteLine("3. Power Of Two");
             Console.WriteLine("4. Harmonic Number");
+            Console.WriteLine("5. Factors of Number");
 
             int ip = Convert.ToInt32(Console.ReadLine());
             switch (ip)
@@ -31,7 +32,10 @@
                     HarmonicNumber harmonicNumber = new HarmonicNumber();
                     harmonicNumber.HarmoncValue();
                     break;
-
+                case 5:
+                    Factors fact = new Factors();   
+                    fact.Factor();
+                    break;
 
             }
 
