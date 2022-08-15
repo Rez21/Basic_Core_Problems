@@ -12,6 +12,7 @@
             Console.WriteLine("3. Power Of Two");
             Console.WriteLine("4. Harmonic Number");
             Console.WriteLine("5. Factors of Number");
+            Console.WriteLine("6. Compute Quotient & Remainder");
 
             int ip = Convert.ToInt32(Console.ReadLine());
             switch (ip)
@@ -35,6 +36,10 @@
                 case 5:
                     Factors fact = new Factors();   
                     fact.Factor();
+                    break;
+                case 6:
+                    QuotientAndRemainder num = new QuotientAndRemainder();
+                    num.QuotReminder();
                     break;
 
             }
