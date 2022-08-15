@@ -3,8 +3,6 @@
 
     class Program
     {
-
-
         static void Main(string[] args)
         {
             Console.WriteLine("Basic Core Problems");
@@ -13,7 +11,6 @@
             Console.WriteLine("2.Leap Year Problem");
 
             int ip = Convert.ToInt32(Console.ReadLine());
-
             switch (ip)
             {
                 case 1:
@@ -24,6 +21,11 @@
                     Leap_Year year = new Leap_Year();
                     year.LeapYearCheck();
                     break;
+                case 3:
+                    PowerOfTwo power = new PowerOfTwo();
+                    power.PowerTwo();
+                    break;
+
 
             }
 
