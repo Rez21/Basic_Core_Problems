@@ -15,6 +15,7 @@
             Console.WriteLine("6. Compute Quotient & Remainder");
             Console.WriteLine("7. Even Or Odd Number");
             Console.WriteLine("8. Consonent Or Vowel Alphabet");
+            Console.WriteLine("9. Larget Number");
 
             int ip = Convert.ToInt32(Console.ReadLine());
             switch (ip)
@@ -50,6 +51,10 @@
                 case 8:
                     ConsonentOrVowel alphabet=new ConsonentOrVowel();
                     alphabet.Alphabet();
+                    break;
+                case 9:
+                    LargestNumber largestNumber = new LargestNumber();
+                    largestNumber.Largest();
                     break;
             }
 
