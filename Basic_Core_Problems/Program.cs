@@ -13,6 +13,7 @@
             Console.WriteLine("4. Harmonic Number");
             Console.WriteLine("5. Factors of Number");
             Console.WriteLine("6. Compute Quotient & Remainder");
+            Console.WriteLine("7. Even Or Odd Number");
 
             int ip = Convert.ToInt32(Console.ReadLine());
             switch (ip)
@@ -41,7 +42,10 @@
                     QuotientAndRemainder num = new QuotientAndRemainder();
                     num.QuotReminder();
                     break;
-
+                case 7:
+                    EvenOdd evenOdd = new EvenOdd();
+                    evenOdd.EvenOdd();
+                    break;
             }
 
         }
