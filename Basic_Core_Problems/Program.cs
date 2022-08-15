@@ -16,6 +16,7 @@
             Console.WriteLine("7. Even Or Odd Number");
             Console.WriteLine("8. Consonent Or Vowel Alphabet");
             Console.WriteLine("9. Larget Number");
+            Console.WriteLine("10. Swap 2 numbers");
 
             int ip = Convert.ToInt32(Console.ReadLine());
             switch (ip)
@@ -55,6 +56,10 @@
                 case 9:
                     LargestNumber largestNumber = new LargestNumber();
                     largestNumber.Largest();
+                    break;
+                case 10:
+                    SwapTwoNumbers swapTwoNumbers = new SwapTwoNumbers();
+                    swapTwoNumbers.SwapNumber();
                     break;
             }
 
